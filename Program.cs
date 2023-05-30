@@ -16,6 +16,14 @@ namespace Snake_and_Ladder_Simulator
 
             Console.WriteLine("Start Position => " + currentPosition);
 
+            // UC 2 - The Player rolls the die to get a number between 1 to 6.
+
+            Random random = new Random();
+
+            int dieRoll = random.Next(1, 6);
+
+            Console.WriteLine("Player roll a die and get => " + dieRoll);
+
         }
     }
 }
