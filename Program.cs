@@ -20,7 +20,7 @@ namespace Snake_and_Ladder_Simulator
 
             Random random = new Random();
 
-            int dieRoll = random.Next(1, 6);
+            int dieRoll = random.Next(1, 7);
 
             Console.WriteLine("Player roll a die and get => " + dieRoll);
 
