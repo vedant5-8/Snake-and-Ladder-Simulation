@@ -13,6 +13,7 @@ namespace Snake_and_Ladder_Simulator
 
             int currentPosition = 0;
             int finalPosition = 100;
+            int diceRoll = 0;
 
             Console.WriteLine("Start Position => " + currentPosition);
 
@@ -54,13 +55,13 @@ namespace Snake_and_Ladder_Simulator
                 {
                     currentPosition = finalPosition;
                 }
-
+                diceRoll++;
                 Console.WriteLine("Current Position = " + currentPosition);
 
             }
 
             Console.WriteLine("Congratulations! Player Has reached to the winning position");
-
+            Console.WriteLine("Number of DiceRolls = " + diceRoll);
         }
     }
 }
