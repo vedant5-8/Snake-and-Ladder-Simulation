@@ -49,6 +49,11 @@ namespace Snake_and_Ladder_Simulator
                 {
                     currentPosition = 0;
                 }
+                
+                if (currentPosition > finalPosition)
+                {
+                    currentPosition = finalPosition;
+                }
 
                 Console.WriteLine("Current Position = " + currentPosition);
 
